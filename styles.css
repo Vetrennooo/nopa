@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#gameArea {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: #ccc;
+    border: 2px solid #333;
+    overflow: hidden;
+}
+
+.tank {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    transform-origin: center;
+}
+
+.enemy {
+    background-color: red;
+}
+
+.bullet {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
